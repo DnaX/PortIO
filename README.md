@@ -1,9 +1,11 @@
 PortIO
 ======
 
-PortIO is a simple program that allows you to drive hardware connected to the PC parallel port for educational purposes. The graphical interface is divided into four parts with different functions. Unfortunately GUI and most of the code it's writte in Italian language.
+PortIO is a simple program that allows you to drive hardware connected to the PC parallel port for educational purposes. Unfortunately GUI and most of the code it's writte in Italian language.
 
 I'm sorry in advance for the ugly coding style, it's an old high school project.
+
+**NOTE: No further development of this project is planned.**
 
 RAW output
 ----------
@@ -25,8 +27,9 @@ Windows version
 ---------------
 The Windows version, tested with Windows 2000/XP, uses a custom made device driver called "ISAKerPlug" to access the parallel port (missing). The control GUI was developed in C++ with Borland C++Builder IDE.
 
-![win_screen1](screenshots/portio_win1.png?raw=true)
-![win_screen2](screenshots/portio_win2.png?raw=true)
+DAC section             |  ADC section
+:----------------------:|:----------------------:
+![win_screen1](screenshots/portio_win1.png?raw=true)  |  ![win_screen2](screenshots/portio_win2.png?raw=true)
 
 Linux version
 -------------
@@ -36,8 +39,9 @@ The Linux version does not have the LCD driver feature but adds an oscilloscope-
 
 You will probably need to use root permissions to run the program to have direct IO access.
 
-![lin_screen1](screenshots/portio_lin1.png?raw=true)
-![lin_screen2](screenshots/portio_lin2.png?raw=true)
+DAC section             |  ADC section
+:----------------------:|:----------------------:
+![lin_screen1](screenshots/portio_lin1.png?raw=true)  |  ![lin_screen2](screenshots/portio_lin2.png?raw=true)
 
 Hardware
 --------
