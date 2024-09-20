@@ -45,6 +45,6 @@ DAC section             |  ADC section
 
 Hardware
 --------
-The switch between the ADC and DAC mode it's done using the STROBE signal in the parallel port. The diagram of the controlled circuit with the relative wiring of the parallel port is available here.
+The switch between the ADC and DAC mode it's done using the STROBE signal in the parallel port. The diagram of the controlled circuit with the relative wiring of the parallel port is available here (circuit developed by my colleague Alessio Saviozzi).
 
 ![schema](Schema-ADC-DAC.PNG?raw=true)
